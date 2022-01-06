@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project name="HelloWorld" default="run" basedir=".">
+	<target name="compile">
+		<javac srcdir="." destdir="." verbose="true" includeantruntime="true"></javac>
+	</target>
+	
+	<target name="run" depends="compile">
+		<java classname="HelloWorld" fork="true"></java>
+	</target>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="copy_multiple_files" default="multi" basedir=".">
+	<target name="multi">
+		<copy todir="bin" verbose="true" overwrite="true">
+			<fileset includes="*.txt" excludes="Test.txt" dir="."></fileset>
+		</copy>
+	</target>
+</project>

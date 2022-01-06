@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="delete_lib_dir_and_create_lib" default="create" basedir=".">
+	
+	<target name="delete">
+		<delete dir="lib"/>
+	</target>
+	
+	<target name="create" depends="delete">
+		<mkdir dir="lib" />
+	</target>
+</project>

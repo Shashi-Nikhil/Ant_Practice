@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="print_string_on_console" default="print" basedir=".">
+	<target name="print">
+		<echo>Printing the String Using Ant with echo tag</echo>
+	</target>
+</project>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="make directory" default="create" basedir=".">
+<target name="create">
+	<mkdir dir="lib" />
+</target>
+</project>

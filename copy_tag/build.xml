@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="copy_file_from_current_dir_to_destination" default="copy" basedir=".">
+	
+	<!--<target name="delete">
+		<delete file="test.txt" />
+	</target>
+	
+	<target name="create" depends="delete">
+		<mkdir file="test.txt" />
+	</target> -->
+	
+	<target name="copy">
+		<copy file="test.txt" todir="bin"></copy>
+	</target>
+	
+</project>
